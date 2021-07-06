@@ -1,0 +1,103 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #e5e5e5;
+
+}
+
+.itunes-widget {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 10px #c4c4c4;
+}
+
+#album-search {
+  width: 75%;
+  margin-top: 20px;
+}
+
+.artist-search {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+input[type="text"] {
+ height: 2.2rem;
+ width: 60%;
+ padding: 10px;
+ font-family: Helvetica;
+ font-weight: lighter;
+ font-size: 1.8rem;
+ border-radius: 10px;
+ border: 1px solid #c4c4c4;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px blue;
+  outline: none;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #4a97cd;
+  color: white;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+}
+
+input[type="submit"]:active {
+  background: #001a82;
+  box-shadow: none;
+  outline: none;
+}
+
+input[type="submit"]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+
+.album-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.results_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 300px;
+}
+
+.h1result {
+width: 100%;
+color: #8d5248;
+font-size: 1.5rem;
+font-family: Helvetica;
+font-weight: lighter;
+text-align: center;
+}
+
+.h1loading {
+width: 100%;
+color: #8d5248;
+font-size: 2.5rem;
+font-family: Helvetica;
+font-weight: lighter;
+text-align: center;
+}
